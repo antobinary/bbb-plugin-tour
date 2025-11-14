@@ -22,7 +22,7 @@ jobs:
         node-version: '20'
 
     - name: Get triggering user's email
-    : |
+      run: |
         user_email=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/users/${{ github.actor }} | jq -r '.email')
         if [ -z "$user_email" ] || [ "$user_email" == "null" ]; then
           user_email="github-actions@github.com"
