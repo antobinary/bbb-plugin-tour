@@ -1,3 +1,9 @@
+bbb-plugin-tour (0.0.4) jammy; urgency=medium
+
+* Update publish-tag.yml (cd8f095)
+
+ -- antobinary <github-actions@github.com>  Tue, 18 Nov 2025 15:01:28 +0000
+
 bbb-plugin-tour (0.1.0) jammy; urgency=medium
 
   * initial build
